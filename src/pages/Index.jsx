@@ -24,7 +24,7 @@ const Index = () => {
         <Box p={4} borderWidth="2px" borderRadius="lg" overflow="hidden">
           <VStack spacing={5}>
             <Input type="file" onChange={handleFileChange} size="lg" placeholder="Select file" variant="flushed" p={1} />
-            <Button leftIcon={<FaCloudUploadAlt />} colorScheme="brand" size="lg" onClick={handleUpload}>
+            <Button leftIcon={<FaCloudUploadAlt />} colorScheme="blue" size="lg" onClick={handleUpload}>
               Upload to Cloud
             </Button>
           </VStack>
