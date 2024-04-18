@@ -16,22 +16,22 @@ const Index = () => {
     <Container maxW="container.md" p={4}>
       <VStack spacing={8}>
         <Heading as="h1" size="xl" textAlign="center">
-          Cloud Storage File Uploader
+          Subidor de Archivos a la Nube
         </Heading>
         <Text fontSize="lg" textAlign="center">
-          Upload your files securely to the cloud with just a few clicks.
+          Sube tus archivos de manera segura a la nube con solo unos pocos clics.
         </Text>
         <Box p={4} borderWidth="2px" borderRadius="lg" overflow="hidden">
           <VStack spacing={5}>
             <Input type="file" onChange={handleFileChange} size="lg" placeholder="Select file" variant="flushed" p={1} />
             <Button leftIcon={<FaCloudUploadAlt />} colorScheme="blue" size="lg" onClick={handleUpload}>
-              Upload to Cloud
+              Subir a la Nube
             </Button>
           </VStack>
         </Box>
         <Center>
           <Text fontSize="sm" color="gray.500">
-            Your files are protected with top-notch security standards.
+            Tus archivos están protegidos con los más altos estándares de seguridad.
           </Text>
         </Center>
       </VStack>
